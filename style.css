@@ -637,6 +637,45 @@ p {
     margin-bottom: 10px;
 }
 
+/* ==========================================
+   BOTÕES DOS CARDS
+========================================== */
+
+.card a{
+    text-decoration: none;
+}
+
+.card button{
+    width: 100%;
+    margin-top: 20px;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 12px;
+    background: #2E5E4E;
+    color: #FFFFFF;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all .3s ease;
+    box-shadow: 0 8px 20px rgba(46, 94, 78, .25);
+}
+
+.card button:hover{
+    background: #3D7A63;
+    transform: translateY(-3px);
+    box-shadow: 0 12px 25px rgba(46, 94, 78, .35);
+}
+
+.card button:active{
+    transform: scale(.98);
+}
+
+.card button:focus{
+    outline: 3px solid rgba(46, 94, 78, .25);
+    outline-offset: 3px;
+}
+
 /* =====================================================
    CONTATO
 ===================================================== */
